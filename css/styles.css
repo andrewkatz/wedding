@@ -7893,7 +7893,7 @@ button.close {
 }
 /* line 2, ../_sass/_typography.scss */
 body {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Raleway', serif;
 }
 
 /* line 19, ../_sass/_typography.scss */
@@ -8001,32 +8001,58 @@ body {
   font-size: 16px;
 }
 
-/* line 10, ../_sass/styles.scss */
+/* line 2, ../_sass/_dark.scss */
+body.dark {
+  background-color: #111;
+}
+/* line 6, ../_sass/_dark.scss */
+body.dark .navbar.navbar-default {
+  background-color: #111;
+  border-color: #222;
+}
+/* line 12, ../_sass/_dark.scss */
+body.dark p {
+  color: #ccc;
+}
+/* line 17, ../_sass/_dark.scss */
+body.dark .countdown {
+  border-color: #222;
+}
+/* line 22, ../_sass/_dark.scss */
+body.dark #footer {
+  border-color: #222;
+}
+/* line 27, ../_sass/_dark.scss */
+body.dark .propsal-top {
+  margin-top: 30px;
+}
+
+/* line 11, ../_sass/styles.scss */
 .bar {
   background-color: #fafafa;
   height: 10px;
 }
 
-/* line 16, ../_sass/styles.scss */
+/* line 17, ../_sass/styles.scss */
 img {
   margin-bottom: 15px;
 }
-/* line 20, ../_sass/styles.scss */
+/* line 21, ../_sass/styles.scss */
 img.sherwood {
   margin: 0 auto 15px;
 }
 
-/* line 26, ../_sass/styles.scss */
+/* line 27, ../_sass/styles.scss */
 .home img {
   margin: 0 auto;
 }
 
-/* line 31, ../_sass/styles.scss */
+/* line 32, ../_sass/styles.scss */
 .maps {
   margin-top: 30px;
 }
 
-/* line 36, ../_sass/styles.scss */
+/* line 37, ../_sass/styles.scss */
 iframe.google-maps {
   border-radius: 6px;
 }
