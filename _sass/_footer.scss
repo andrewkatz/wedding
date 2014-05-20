@@ -1,0 +1,19 @@
+#footer
+{
+  border-top: 1px solid $gray;
+  padding: 40px 0 30px;
+  text-align: center;
+
+  p
+  {
+    @include cursive;
+    font-size: 18px;
+
+    .date
+    {
+      @include sans-serif;
+      color: #555;
+      font-size: 16px;
+    }
+  }
+}
