@@ -8010,19 +8010,24 @@ body.dark .navbar.navbar-default {
   background-color: #111;
   border-color: #222;
 }
-/* line 12, ../_sass/_dark.scss */
+/* line 13, ../_sass/_dark.scss */
+body.dark .navbar-default .navbar-collapse,
+body.dark .navbar-default .navbar-form {
+  border-color: #222;
+}
+/* line 18, ../_sass/_dark.scss */
 body.dark p {
   color: #ccc;
 }
-/* line 17, ../_sass/_dark.scss */
+/* line 23, ../_sass/_dark.scss */
 body.dark .countdown {
   border-color: #222;
 }
-/* line 22, ../_sass/_dark.scss */
+/* line 28, ../_sass/_dark.scss */
 body.dark #footer {
   border-color: #222;
 }
-/* line 27, ../_sass/_dark.scss */
+/* line 33, ../_sass/_dark.scss */
 body.dark .propsal-top {
   margin-top: 30px;
 }
