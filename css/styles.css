@@ -8104,5 +8104,11 @@ iframe.google-maps {
 }
 /* line 47, ../_sass/styles.scss */
 .registry img {
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 3px #eee;
   margin: 30px auto;
+}
+/* line 53, ../_sass/styles.scss */
+.registry img:hover {
+  border-color: #ccc;
 }

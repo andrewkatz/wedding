@@ -45,6 +45,13 @@ iframe.google-maps
 
   img
   {
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px #eee;
     margin: 30px auto;
+
+    &:hover
+    {
+      border-color: #ccc;
+    }
   }
 }
