@@ -8032,32 +8032,68 @@ body.dark .propsal-top {
   margin-top: 30px;
 }
 
-/* line 11, ../_sass/styles.scss */
+/* line 3, ../_sass/_party.scss */
+.groom,
+.bride {
+  padding-bottom: 40px;
+}
+
+/* line 8, ../_sass/_party.scss */
+.groom {
+  background-color: #222;
+  border-radius: 6px;
+  color: #ccc;
+}
+/* line 14, ../_sass/_party.scss */
+.groom p {
+  color: #bbb;
+}
+
+/* line 26, ../_sass/_party.scss */
+.member .img-wrap {
+  text-align: center;
+}
+/* line 31, ../_sass/_party.scss */
+.member img {
+  display: inline-block;
+  max-height: 200px;
+  margin-top: 15px;
+}
+
+/* line 39, ../_sass/_party.scss */
+h1.title {
+  font-family: 'Dancing Script', cursive;
+  border-bottom: 1px solid #999;
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* line 12, ../_sass/styles.scss */
 .bar {
   background-color: #fafafa;
   height: 10px;
 }
 
-/* line 17, ../_sass/styles.scss */
+/* line 18, ../_sass/styles.scss */
 img {
   margin-bottom: 15px;
 }
-/* line 21, ../_sass/styles.scss */
+/* line 22, ../_sass/styles.scss */
 img.sherwood {
   margin: 0 auto 15px;
 }
 
-/* line 27, ../_sass/styles.scss */
+/* line 28, ../_sass/styles.scss */
 .home img {
   margin: 0 auto;
 }
 
-/* line 32, ../_sass/styles.scss */
+/* line 33, ../_sass/styles.scss */
 .maps {
   margin-top: 30px;
 }
 
-/* line 37, ../_sass/styles.scss */
+/* line 38, ../_sass/styles.scss */
 iframe.google-maps {
   border-radius: 6px;
 }

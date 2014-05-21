@@ -1,0 +1,45 @@
+.groom,
+.bride
+{
+  padding-bottom: 40px;
+}
+
+.groom
+{
+  background-color: #222;
+  border-radius: 6px;
+  color: #ccc;
+
+  p
+  {
+    color: #bbb;
+  }
+}
+
+.bride
+{
+}
+
+.member
+{
+  .img-wrap
+  {
+    text-align: center;
+  }
+
+  img
+  {
+    display: inline-block;
+    max-height: 200px;
+    margin-top: 15px;
+  }
+}
+
+h1.title
+{
+  @include cursive;
+
+  border-bottom: 1px solid #999;
+  margin: 30px 0;
+  text-align: center;
+}
