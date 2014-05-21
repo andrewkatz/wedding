@@ -8097,3 +8097,12 @@ img.sherwood {
 iframe.google-maps {
   border-radius: 6px;
 }
+
+/* line 43, ../_sass/styles.scss */
+.registry {
+  text-align: center;
+}
+/* line 47, ../_sass/styles.scss */
+.registry img {
+  margin: 30px auto;
+}
