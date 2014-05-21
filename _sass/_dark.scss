@@ -6,6 +6,11 @@ body.dark
   {
     background-color: #111;
     border-color: #222;
+
+    a.navbar-brand
+    {
+      color: #ccc;
+    }
   }
 
   .navbar-default .navbar-collapse,

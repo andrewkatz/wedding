@@ -7961,12 +7961,12 @@ body {
 }
 /* line 59, ../_sass/_header.scss */
 .navbar.navbar-default a.navbar-brand {
-  color: #333;
   font-family: 'Dancing Script', cursive;
+  color: #333;
   font-size: 25px;
 }
 
-/* line 67, ../_sass/_header.scss */
+/* line 68, ../_sass/_header.scss */
 .countdown {
   font-family: 'Raleway', sans-serif;
   border-bottom: 1px solid #e7e7e7;
@@ -7978,7 +7978,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 80, ../_sass/_header.scss */
+/* line 81, ../_sass/_header.scss */
 .countdown #timer {
   color: #ccc;
 }
@@ -8010,24 +8010,28 @@ body.dark .navbar.navbar-default {
   background-color: #111;
   border-color: #222;
 }
-/* line 13, ../_sass/_dark.scss */
+/* line 11, ../_sass/_dark.scss */
+body.dark .navbar.navbar-default a.navbar-brand {
+  color: #ccc;
+}
+/* line 18, ../_sass/_dark.scss */
 body.dark .navbar-default .navbar-collapse,
 body.dark .navbar-default .navbar-form {
   border-color: #222;
 }
-/* line 18, ../_sass/_dark.scss */
+/* line 23, ../_sass/_dark.scss */
 body.dark p {
   color: #ccc;
 }
-/* line 23, ../_sass/_dark.scss */
+/* line 28, ../_sass/_dark.scss */
 body.dark .countdown {
   border-color: #222;
 }
-/* line 28, ../_sass/_dark.scss */
+/* line 33, ../_sass/_dark.scss */
 body.dark #footer {
   border-color: #222;
 }
-/* line 33, ../_sass/_dark.scss */
+/* line 38, ../_sass/_dark.scss */
 body.dark .propsal-top {
   margin-top: 30px;
 }
